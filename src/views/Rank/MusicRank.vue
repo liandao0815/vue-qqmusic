@@ -4,7 +4,7 @@
       <ul>
         <li class="item" v-for="(item, index) of rankData" :key="index" @click="linkTo(item.id)">
           <div class="pic">
-            <img :src="item.picUrl" width="100" height="100">
+            <img :src="item.picUrl" width="100%" height="100%">
             <span class="listen-count">
               <i class="listen-icon"></i>
               {{item.listenCount | listenCount}}
